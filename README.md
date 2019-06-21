@@ -1,5 +1,7 @@
 # PublixCoupons
 
-To install requirements make sure that you have python3 and pip
+To install app make sure that you have python3 and pip3
 
-pip install -r requirements.txt
+In installation directory type:
+
+pip install .
