@@ -161,7 +161,7 @@ def setup_logging(self, logname='default', file_level= logging.INFO, console_lev
     """
     file = 'logs/' + logname + get_time() + '.log'
     logging.basicConfig(filename= file, level= file_level,
-                        format= '%(levelname)s: %(funcName)s %(asctime)s %(message)s ', i
+                        format= '%(levelname)s: %(funcName)s %(asctime)s %(message)s ', 
                         datefmt='%m/%d/%Y %I:%M:%S %p',
                         filemode='w')
 
