@@ -31,14 +31,6 @@ class CouponApp(UI_MainWindow, QtWidgets.QMainWindow):
         super().__init__()
         QtWidgets.QMainWindow.__init__(self)
         UI_MainWindow.__init__(self)
-        log= Log()
-        log.basic_config(
-            logfile_name='coupon',
-            logfile_path='log',
-            file_level= logging.INFO,
-            console_level= logging.CRITICAL
-        )
-        log.get_logger()
         self.setupUi(self)
         self.setWindowTitle('Coupon')
         self.setWindowIcon(QIcon('publix.png'))
