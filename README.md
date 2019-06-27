@@ -1,13 +1,8 @@
 # Publix Coupon Clipper
 
-## How To Install
-
-1. [Repository](#repo)
-2. [Terminal](#terminal)
-3. [GUI](#gui)
-4. [Dev](#dev)
-
 ![coupon](coupon.png)
+
+## How To Install
 
 ### Repo
 
