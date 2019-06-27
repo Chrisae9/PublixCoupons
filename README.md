@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Publix Coupon Clipper
 
 ## How To Install
@@ -29,12 +28,3 @@
 ## Note
 
 If you're using zsh you need to escape square brackets: pip install -e .\[gui\]
-=======
-# PublixCoupons
-
-To install app make sure that you have python3 and pip3
-
-In installation directory type:
-
-pip install .
->>>>>>> 1f21fc1a144984a1e85098a8ddca1188151d622e
