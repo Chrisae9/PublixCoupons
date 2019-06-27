@@ -55,7 +55,7 @@ class CouponApp(UI_MainWindow, QtWidgets.QMainWindow):
 
     def get_data(self):
         """gets the username and password"""
-        data = self.user_input.text(), self.user_input.text()
+        data = self.user_input.text(), self.pass_input.text()
 
         if len(data[0]):
             logging.info('Username is "%s"', data[0])
@@ -65,7 +65,7 @@ class CouponApp(UI_MainWindow, QtWidgets.QMainWindow):
 
         if len(data[1]):
             logging.info('Password exists')
-            logging.debug('Password is "%s"', data[0])
+            logging.debug('Password is "%s"', data[1])
 
         else:
             logging.info('Password was NOT entered')
@@ -74,7 +74,7 @@ class CouponApp(UI_MainWindow, QtWidgets.QMainWindow):
 
     def data_empty(self):
         """Returns true if the data is empty"""
-        if len(self.user_input.text()) or len(self.user_input.text()):
+        if len(self.user_input.text()) and len(self.pass_input.text()):
             logging.debug('Username and password boxes are full')
             return False
 

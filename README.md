@@ -27,4 +27,6 @@
 
 ## Note
 
-If you're using zsh you need to escape square brackets: pip install -e .\[gui\]
+If you're using zsh you need to escape square brackets instead type:
+
+ ```pip install -e .\[gui\]```
