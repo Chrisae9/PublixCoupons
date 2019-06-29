@@ -149,7 +149,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=['click',
                       'pyqt5',
-                      'mechanize'],  # Optional
+                      'mechanicalsoup'],  # Optional
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
