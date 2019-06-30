@@ -23,6 +23,7 @@ def run_script(username, password):
     #test in acutal browser
     # browser.launch_browser()
     # response= browser.submit_selected()
+    # print(browser.get_current_page())
     # print(response.text)
 
 def main():
