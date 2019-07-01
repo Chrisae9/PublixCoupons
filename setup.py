@@ -147,7 +147,8 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['click',
+    install_requires=['wheel',
+                      'click',
                       'pyqt5',
                       'mechanicalsoup'],  # Optional
 
@@ -161,7 +162,7 @@ setup(
     # projects.
     extras_require={  # Optional
         'gui': ['pyqt5'],
-        'dev': ['pyqt5-tools'],
+        'dev': ['pyqt5-tools', 'autopep8'],
     },
 
     # If there are data files included in your packages that need to be
@@ -171,7 +172,7 @@ setup(
     # MANIFEST.in as well.
     include_package_data=True,
     package_data={  # Optional
-        '': ['*ui'],
+        '': ['*ui', '*png'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
@@ -190,7 +191,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
-            'coupon=cli:cli',
+            'coupon=app.cli:cli',
         ],
     },
 
